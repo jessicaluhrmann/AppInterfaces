@@ -21,13 +21,13 @@
 
         public void Display()
         {
-            foreach (string todo in Todos)
+            foreach (var todo in Todos)
                 Console.WriteLine(todo);
         }
 
         public void Reset()
         {
-            Array.Clear(Todos, 0, 4);
+            Array.Clear(Todos);
             nextOpenIndex = 0;
         }
     }

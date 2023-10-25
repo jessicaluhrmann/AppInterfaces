@@ -18,7 +18,7 @@
         {
             if (Hidden == false)
             {
-                foreach (char character in Password)
+                foreach (var character in Password)
                 {
                     Console.WriteLine(character);
                 }
